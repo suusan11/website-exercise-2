@@ -1,0 +1,24 @@
+.header-nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: $background-color-header-footer;
+	width: 100%;
+	height: 130px;
+	position: fixed;
+
+	&-left, &-right {
+		width: 30%
+	}
+
+	&-left>li, &-right>li {
+		display: inline;
+		margin: 0 15%;
+		font-size: $font-size-li;
+		font-family: $sans-header-footer;
+	}
+
+	a {
+		color: $font-color-base;
+	}
+}
