@@ -1,7 +1,10 @@
-.description {
+.islands {
 	width: $section-width;
-	padding: 15% 0;
-	
+
+	.introduction {
+		margin-top: 50px;
+	}
+
 	h1 {
 		width: auto;
 		font-size: $font-size-h1;
@@ -12,16 +15,26 @@
 	hr {
 		width: 4%;
 		border-width: 0.5px;
-		border-color: $theme-color-description;
+		border-color: $theme-color-islands;
 		margin-left: 3%;
 	}
 
-	.descriptionparagraph {
-		margin-top: $margin-top-paragraph-description;
+	.paragraph {
+		margin: $section-margin-top-bottom-paragraph;
 
 		p {
 			font-size: $font-size-p;
 			font-weight: $font-weight-light;
 		}
 	}
+
+	.img-right {
+		text-align: right;
+
+		img {
+			width: 50%;
+			box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.1);
+		}
+	}
+
 }
