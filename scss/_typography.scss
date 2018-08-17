@@ -5,16 +5,15 @@
 // font-family
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Jaldi');
 
-$sans-base: 'Lato', sans-serif;
+$sans-base: 'Jaldi', sans-serif;
 $serif-h: 'Crimson Text', serif;
 $sans-header-footer: 'Montserrat', sans-serif;
 
 
 // font-color
 $font-color-base: #707070;
-$font-color-header: #FFFFFF;
 
 
 // font-size:
@@ -22,6 +21,10 @@ $font-base-size: 16px;
 $font-size-h1: 2.5rem;
 $font-size-p: 1.2rem;
 $font-size-li: 1.4rem; 
+
+
+//font-weight
+$font-weight-light: lighter;
 
 
 html {

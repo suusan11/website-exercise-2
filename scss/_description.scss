@@ -1,0 +1,26 @@
+.description {
+	width: $section-width;
+	
+	h1 {
+		width: auto;
+		font-size: $font-size-h1;
+		font-family: $serif-h;
+		padding-bottom: $section-padding-bottom-h1;
+	}
+
+	hr {
+		width: 4%;
+		border-width: 0.5px;
+		border-color: $theme-color-description;
+		margin-left: 3%;
+	}
+
+	.paragraph {
+		margin-top: $section-margin-top-paragraph;
+
+		p {
+			font-size: $font-size-p;
+			font-weight: $font-weight-light;
+		}
+	}
+}
