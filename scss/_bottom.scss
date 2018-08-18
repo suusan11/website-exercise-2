@@ -1,0 +1,16 @@
+.bottom {
+	width: $section-width;
+	text-align: center;
+	margin-top: 300px;
+
+	img {
+		width: $width-section-img;
+		box-shadow: $box-shadow-section-img-center;
+	}
+
+	p {
+		font-size: $font-size-p;
+		font-weight: $font-weight-light;
+		margin: 30px 0;
+	}
+}
