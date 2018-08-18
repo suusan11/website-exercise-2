@@ -174,29 +174,29 @@ html {
   margin-top: 20%;
 }
 
-.islands .introduction {
+.islands .introduction-left {
   display: inline-block;
 }
 
-.islands .introduction h1 {
+.islands .introduction-left h1 {
   font-size: 2.5rem;
   font-family: "Crimson Text", serif;
   padding-bottom: 10px;
   margin-top: 30%;
 }
 
-.islands .introduction hr {
-  width: 10%;
+.islands .introduction-left hr {
+  width: 40px;
   border-width: 0.5px;
   border-color: #86CB32;
   margin-left: 6%;
 }
 
-.islands .introduction .paragraph {
-  margin: 2% 0;
+.islands .introduction-left .paragraph {
+  margin: 5% 0;
 }
 
-.islands .introduction .paragraph p {
+.islands .introduction-left .paragraph p {
   font-size: 1.2rem;
   font-weight: lighter;
 }
@@ -207,5 +207,47 @@ html {
 
 .islands .img-right img {
   width: 50%;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.activities {
+  width: section-width;
+  margin-top: 20%;
+  text-align: right;
+}
+
+.activities .img-left {
+  text-align: left;
+}
+
+.activities .img-left img {
+  width: 50%;
   box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.activities .introduction-right {
+  display: inline-block;
+}
+
+.activities .introduction-right h1 {
+  font-size: 2.5rem;
+  font-family: "Crimson Text", serif;
+  padding-bottom: 10px;
+  margin-top: 30%;
+}
+
+.activities .introduction-right hr {
+  width: 40px;
+  border-width: 0.5px;
+  border-color: #8F6FFA;
+  margin-left: 20%;
+}
+
+.activities .introduction-right .paragraph {
+  margin: 5% 0;
+}
+
+.activities .introduction-right .paragraph p {
+  font-size: 1.2rem;
+  font-weight: lighter;
 }

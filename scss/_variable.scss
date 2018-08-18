@@ -7,21 +7,23 @@ $background-color-header-footer: #CFCFCF;
 $section-width: 100%;
 $section-margin-top: 20%;
 $section-padding-bottom-h1: 10px;
-$section-margin-top-bottom-paragraph: 2% 0;
+$section-margin-top-bottom-paragraph: 5% 0;
 
 //section introduction
 $margin-top-introduction-h1: 30%;
-$width-introduction-hr: 10%;
+$width-introduction-hr: 40px;
 $border-width-introduction-hr: 0.5px;
 
 //section img
 $width-section-img: 50%;
-$box-shadow-section-img: -10px -10px 15px rgba(0, 0, 0, 0.1);
+$box-shadow-section-img-right: 10px 10px 15px rgba(0, 0, 0, 0.1);
+$box-shadow-section-img-left: -10px -10px 15px rgba(0, 0, 0, 0.1);
 
+//theme-color
+$theme-color-islands: #86CB32;
+$theme-color-activities: #8F6FFA;
+$theme-color-food: #F27E42;
 
 // section description
 $theme-color-description: #0B61E2;
 $margin-top-paragraph-description: 10%;
-
-//section islands
-$theme-color-islands: #86CB32;

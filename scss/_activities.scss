@@ -1,10 +1,20 @@
-.islands {
-	width: $section-width;
+.activities {
+	width: section-width;
 	margin-top: $section-margin-top;
+	text-align: right;
 
-	.introduction-left {
+	.img-left {
+		text-align: left;
+
+		img {
+			width: $width-section-img;
+			box-shadow: $box-shadow-section-img-left;
+		}
+	}
+
+	.introduction-right {
 		display: inline-block;
-		
+
 		h1 {
 			font-size: $font-size-h1;
 			font-family: $serif-h;
@@ -15,8 +25,8 @@
 		hr {
 			width: $width-introduction-hr;
 			border-width: $border-width-introduction-hr;
-			border-color: $theme-color-islands;
-			margin-left: 6%;
+			border-color: $theme-color-activities;
+			margin-left: 20%;
 		}
 
 		.paragraph {
@@ -28,13 +38,4 @@
 			}
 		}
 	}
-	.img-right {
-		text-align: right;
-
-		img {
-			width: $width-section-img;
-			box-shadow: $box-shadow-section-img-right;
-		}
-	}
-
 }
