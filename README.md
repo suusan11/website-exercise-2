@@ -4,6 +4,7 @@ URL: <https://suusan11.github.io/website-exercise-2/>
 
 ### This is a repository for exercising html and sass.
 
+Using AOS(Animate on scroll library) for sliding each image except top image.
 
 ![screenshot](https://user-images.githubusercontent.com/38636923/44311418-f88c4200-a39b-11e8-8bc5-508963bf34cb.jpg)
 
