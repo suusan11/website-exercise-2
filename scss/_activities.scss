@@ -25,8 +25,24 @@
 			width: $width-introduction-hr;
 			border-width: $border-width-introduction-hr;
 			border-color: $theme-color-activities;
-			margin-left: 65%;
+			margin-left: 70%;
 		}
+
+		a {
+			display: inline-block;
+			font-size: $font-size-p;
+			color: $theme-color-activities;
+			border: 2px solid $theme-color-activities;
+			border-radius: 20px;
+			box-shadow: 0 2px 3px;
+			padding: 10px 15px;
+			margin-top: 3%;
+
+			&:hover {
+				color: $font-color-white;
+				background-color: $theme-color-activities;
+			}
+		}	
 
 		.paragraph {
 			margin: $section-margin-top-bottom-paragraph;

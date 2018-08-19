@@ -193,6 +193,22 @@ html {
   margin-left: 6%;
 }
 
+.islands .introduction-left a {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #86CB32;
+  border: 2px solid #86CB32;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px;
+  padding: 10px 15px;
+  margin-top: 3%;
+}
+
+.islands .introduction-left a:hover {
+  color: #FFFFFF;
+  background-color: #86CB32;
+}
+
 .islands .paragraph {
   margin: 24px 0;
 }
@@ -240,7 +256,23 @@ html {
   width: 40px;
   border-width: 0.5px;
   border-color: #8F6FFA;
-  margin-left: 65%;
+  margin-left: 70%;
+}
+
+.activities .introduction-right a {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #8F6FFA;
+  border: 2px solid #8F6FFA;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px;
+  padding: 10px 15px;
+  margin-top: 3%;
+}
+
+.activities .introduction-right a:hover {
+  color: #FFFFFF;
+  background-color: #8F6FFA;
 }
 
 .activities .introduction-right .paragraph {
@@ -280,8 +312,24 @@ html {
   text-align: center;
   width: 40px;
   border-width: 0.5px;
-  border-color: #86CB32;
-  margin-left: 6%;
+  border-color: #F27E42;
+  margin-left: 4%;
+}
+
+.food .introduction-left a {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #F27E42;
+  border: 2px solid #F27E42;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px;
+  padding: 10px 15px;
+  margin-top: 3%;
+}
+
+.food .introduction-left a:hover {
+  color: #FFFFFF;
+  background-color: #F27E42;
 }
 
 .food .paragraph {

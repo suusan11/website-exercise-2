@@ -24,9 +24,25 @@
 			text-align: center;
 			width: $width-introduction-hr;
 			border-width: $border-width-introduction-hr;
-			border-color: $theme-color-islands;
-			margin-left: 6%;
-		}	
+			border-color: $theme-color-food;
+			margin-left: 4%;
+		}
+
+		a {
+			display: inline-block;
+			font-size: $font-size-p;
+			color: $theme-color-food;
+			border: 2px solid $theme-color-food;
+			border-radius: 20px;
+			box-shadow: 0 2px 3px;
+			padding: 10px 15px;
+			margin-top: 3%;
+
+			&:hover {
+				color: $font-color-white;
+				background-color: $theme-color-food;
+			}
+		}		
 	}
 		
 	.paragraph {
