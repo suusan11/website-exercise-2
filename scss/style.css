@@ -111,11 +111,12 @@ html {
 }
 
 .header-nav-left, .header-nav-right {
+  display: inline-block;
   width: 30%;
 }
 
 .header-nav-left > li, .header-nav-right > li {
-  display: inline;
+  display: inline-block;
   margin: 0 15%;
   font-size: 1.4rem;
   font-family: "Montserrat", sans-serif;
@@ -123,6 +124,30 @@ html {
 
 .header-nav a {
   color: #707070;
+  position: relative;
+}
+
+.header-nav a::before, .header-nav a::after {
+  position: absolute;
+  content: '';
+  border-bottom: 2px solid #707070;
+  bottom: -10px;
+  display: inline;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  width: 0;
+}
+
+.header-nav a::before {
+  left: 50%;
+}
+
+.header-nav a::after {
+  right: 50%;
+}
+
+.header-nav a:hover::before, .header-nav a:hover::after {
+  width: 50%;
 }
 
 .container {

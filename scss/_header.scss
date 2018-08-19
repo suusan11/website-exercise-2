@@ -10,11 +10,12 @@
 	left: 0;
 
 	&-left, &-right {
+		display: inline-block;
 		width: 30%
 	}
 
 	&-left>li, &-right>li {
-		display: inline;
+		display: inline-block;
 		margin: 0 15%;
 		font-size: $font-size-li;
 		font-family: $sans-header-footer;
@@ -22,5 +23,30 @@
 
 	a {
 		color: $font-color-base;
+		position: relative;
+
+		&::before, &::after {
+			position: absolute;
+			content: '';
+			border-bottom: 2px solid $font-color-base;
+			bottom: -10px;
+			display: inline;
+			transition: all 0.3s ease;
+			-webkit-transition: all 0.3s ease;
+			width: 0;
+		}
+		
+		&::before {
+			left: 50%;
+		}
+
+		&::after {
+			right: 50%;
+		}
+
+		&:hover::before,
+		&:hover::after {
+			width: 50%;
+		}
 	}
 }
