@@ -3,15 +3,6 @@
 	margin-top: $section-margin-top;
 	text-align: right;
 
-	.img-left {
-		text-align: left;
-
-		img {
-			width: $width-section-img;
-			box-shadow: $box-shadow-section-img-left;
-		}
-	}
-
 	.introduction-right {
 		display: inline-block;
 
@@ -43,14 +34,23 @@
 				background-color: $theme-color-activities;
 			}
 		}	
+	}
 
-		.paragraph {
-			margin: $section-margin-top-bottom-paragraph;
+	.paragraph {
+		margin: $section-margin-top-bottom-paragraph;
 
-			p {
-				font-size: $font-size-p;
-				font-weight: $font-weight-light;
-			}
+		p {
+			font-size: $font-size-p;
+			font-weight: $font-weight-light;
+		}
+	}
+
+	.img-left {
+		text-align: left;
+
+		img {
+			width: $width-section-img;
+			box-shadow: $box-shadow-section-img-left;
 		}
 	}
 }

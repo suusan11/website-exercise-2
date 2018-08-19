@@ -2,15 +2,6 @@
 	width: $section-width;
 	margin-top: $section-margin-top;
 
-	.img-right {
-		text-align: right;
-
-		img {
-			width: $width-section-img;
-			box-shadow: $box-shadow-section-img-right;
-		}
-	}
-
 	.introduction-left {
 		display: inline-block;
 	
@@ -51,6 +42,15 @@
 		p {
 			font-size: $font-size-p;
 			font-weight: $font-weight-light;
+		}
+	}
+
+	.img-right {
+		text-align: right;
+
+		img {
+			width: $width-section-img;
+			box-shadow: $box-shadow-section-img-right;
 		}
 	}
 }

@@ -233,15 +233,6 @@ html {
   text-align: right;
 }
 
-.activities .img-left {
-  text-align: left;
-}
-
-.activities .img-left img {
-  width: 50%;
-  box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.1);
-}
-
 .activities .introduction-right {
   display: inline-block;
 }
@@ -275,27 +266,27 @@ html {
   background-color: #8F6FFA;
 }
 
-.activities .introduction-right .paragraph {
+.activities .paragraph {
   margin: 24px 0;
 }
 
-.activities .introduction-right .paragraph p {
+.activities .paragraph p {
   font-size: 1.2rem;
   font-weight: lighter;
+}
+
+.activities .img-left {
+  text-align: left;
+}
+
+.activities .img-left img {
+  width: 50%;
+  box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .food {
   width: 100%;
   margin-top: 20%;
-}
-
-.food .img-right {
-  text-align: right;
-}
-
-.food .img-right img {
-  width: 50%;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .food .introduction-left {
@@ -339,6 +330,15 @@ html {
 .food .paragraph p {
   font-size: 1.2rem;
   font-weight: lighter;
+}
+
+.food .img-right {
+  text-align: right;
+}
+
+.food .img-right img {
+  width: 50%;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .bottom {
