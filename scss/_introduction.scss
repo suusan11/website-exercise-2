@@ -1,0 +1,40 @@
+.introduction-left {
+	display: inline-block;
+
+	h1 {
+		font-size: $font-size-h1;
+		font-family: $serif-h;
+		padding-bottom: $section-padding-bottom-h1;
+	}
+
+	hr {
+		width: $width-introduction-hr;
+		border-width: $border-width-introduction-hr;
+		// border-color: $theme-color-food;
+		// margin-left: 4%;
+	}
+
+	a {
+		display: inline-block;
+		font-size: $font-size-p;
+		// color: $theme-color-food;
+		// border: 2px solid $theme-color-food;
+		border-radius: 20px;
+		box-shadow: 0 2px 3px;
+		padding: 10px 15px;
+		margin-top: 3%;
+
+		&:hover {
+			color: $font-color-white;
+		}
+	}
+
+	.paragraph {
+	margin: $section-margin-top-bottom-paragraph;
+
+		p {
+			font-size: $font-size-p;
+			font-weight: $font-weight-light;
+		}
+	}
+}

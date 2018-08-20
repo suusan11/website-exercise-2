@@ -1,0 +1,22 @@
+///
+// Mixin font size
+//
+// Generating font setting mixin
+//
+// ```
+// @include font-size(16px, 1.5);
+//
+// // output
+// line-height: 1.5;
+// font-size: 16px;
+// font-size: 1rem;
+// ```
+
+
+@mixin font-size($font-size, $line-height: inherit//defualt数字でも良い//) 
+//引数はどちらでもよい
+//プロパティ
+{
+  line-height: $line-height;
+  font-size: $font-size;
+}

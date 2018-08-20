@@ -99,35 +99,38 @@ html {
 }
 
 .header-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+}
+
+.header-nav-ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #CFCFCF;
-  width: 100%;
-  height: 130px;
-  position: fixed;
-  top: 0;
-  left: 0;
 }
 
-.header-nav-left, .header-nav-right {
+.header-nav-ul-left, .header-nav-ul-right {
   display: inline-block;
   width: 30%;
 }
 
-.header-nav-left > li, .header-nav-right > li {
+.header-nav-ul-left > li, .header-nav-ul-right > li {
   display: inline-block;
   margin: 0 15%;
   font-size: 1.4rem;
   font-family: "Montserrat", sans-serif;
 }
 
-.header-nav a {
+.header-nav-ul a {
   color: #707070;
   position: relative;
 }
 
-.header-nav a::before, .header-nav a::after {
+.header-nav-ul a::before, .header-nav-ul a::after {
   position: absolute;
   content: '';
   border-bottom: 2px solid #707070;
@@ -138,15 +141,15 @@ html {
   width: 0;
 }
 
-.header-nav a::before {
+.header-nav-ul a::before {
   left: 50%;
 }
 
-.header-nav a::after {
+.header-nav-ul a::after {
   right: 50%;
 }
 
-.header-nav a:hover::before, .header-nav a:hover::after {
+.header-nav-ul a:hover::before, .header-nav-ul a:hover::after {
   width: 50%;
 }
 
@@ -194,53 +197,60 @@ html {
   font-weight: lighter;
 }
 
-.islands {
-  width: 100%;
-  margin-top: 20%;
-}
-
-.islands .introduction-left {
+.introduction-left {
   display: inline-block;
 }
 
-.islands .introduction-left h1 {
+.introduction-left h1 {
   font-size: 2.5rem;
   font-family: "Crimson Text", serif;
   padding-bottom: 10px;
-  margin-top: 20%;
 }
 
-.islands .introduction-left hr {
-  text-align: center;
+.introduction-left hr {
   width: 40px;
   border-width: 0.5px;
-  border-color: #86CB32;
-  margin-left: 6%;
 }
 
-.islands .introduction-left a {
+.introduction-left a {
   display: inline-block;
   font-size: 1.2rem;
-  color: #86CB32;
-  border: 2px solid #86CB32;
   border-radius: 20px;
   box-shadow: 0 2px 3px;
   padding: 10px 15px;
   margin-top: 3%;
 }
 
-.islands .introduction-left a:hover {
+.introduction-left a:hover {
   color: #FFFFFF;
-  background-color: #86CB32;
 }
 
-.islands .paragraph {
+.introduction-left .paragraph {
   margin: 24px 0;
 }
 
-.islands .paragraph p {
+.introduction-left .paragraph p {
   font-size: 1.2rem;
   font-weight: lighter;
+}
+
+.islands {
+  width: 100%;
+  margin-top: 20%;
+}
+
+.islands .left hr {
+  border-color: #86CB32;
+  margin-left: 6%;
+}
+
+.islands .left a {
+  color: #86CB32;
+  border: 2px solid #86CB32;
+}
+
+.islands .left a:hover {
+  background-color: #86CB32;
 }
 
 .islands .img-right {
@@ -258,46 +268,18 @@ html {
   text-align: right;
 }
 
-.activities .introduction-right {
-  display: inline-block;
-}
-
-.activities .introduction-right h1 {
-  font-size: 2.5rem;
-  font-family: "Crimson Text", serif;
-  padding-bottom: 10px;
-}
-
-.activities .introduction-right hr {
-  width: 40px;
-  border-width: 0.5px;
+.activities .right hr {
   border-color: #8F6FFA;
   margin-left: 70%;
 }
 
-.activities .introduction-right a {
-  display: inline-block;
-  font-size: 1.2rem;
+.activities .right a {
   color: #8F6FFA;
   border: 2px solid #8F6FFA;
-  border-radius: 20px;
-  box-shadow: 0 2px 3px;
-  padding: 10px 15px;
-  margin-top: 3%;
 }
 
-.activities .introduction-right a:hover {
-  color: #FFFFFF;
+.activities .right a:hover {
   background-color: #8F6FFA;
-}
-
-.activities .paragraph {
-  margin: 24px 0;
-}
-
-.activities .paragraph p {
-  font-size: 1.2rem;
-  font-weight: lighter;
 }
 
 .activities .img-left {
@@ -314,47 +296,18 @@ html {
   margin-top: 20%;
 }
 
-.food .introduction-left {
-  display: inline-block;
-}
-
-.food .introduction-left h1 {
-  font-size: 2.5rem;
-  font-family: "Crimson Text", serif;
-  padding-bottom: 10px;
-}
-
-.food .introduction-left hr {
-  text-align: center;
-  width: 40px;
-  border-width: 0.5px;
+.food .left hr {
   border-color: #F27E42;
   margin-left: 4%;
 }
 
-.food .introduction-left a {
-  display: inline-block;
-  font-size: 1.2rem;
+.food .left a {
   color: #F27E42;
   border: 2px solid #F27E42;
-  border-radius: 20px;
-  box-shadow: 0 2px 3px;
-  padding: 10px 15px;
-  margin-top: 3%;
 }
 
-.food .introduction-left a:hover {
-  color: #FFFFFF;
+.food .left a:hover {
   background-color: #F27E42;
-}
-
-.food .paragraph {
-  margin: 24px 0;
-}
-
-.food .paragraph p {
-  font-size: 1.2rem;
-  font-weight: lighter;
 }
 
 .food .img-right {
