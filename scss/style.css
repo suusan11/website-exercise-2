@@ -198,22 +198,22 @@ html {
   font-weight: lighter;
 }
 
-.introduction-left {
+.introduction {
   display: inline-block;
 }
 
-.introduction-left h1 {
+.introduction h1 {
   font-size: 2.5rem;
   font-family: "Crimson Text", serif;
   padding-bottom: 10px;
 }
 
-.introduction-left hr {
+.introduction hr {
   width: 40px;
   border-width: 0.5px;
 }
 
-.introduction-left a {
+.introduction a {
   display: inline-block;
   font-size: 1.2rem;
   border-radius: 20px;
@@ -222,15 +222,15 @@ html {
   margin-top: 3%;
 }
 
-.introduction-left a:hover {
+.introduction a:hover {
   color: #FFFFFF;
 }
 
-.introduction-left .paragraph {
+.introduction .paragraph {
   margin: 24px 0;
 }
 
-.introduction-left .paragraph p {
+.introduction .paragraph p {
   font-size: 1.2rem;
   font-weight: lighter;
 }
