@@ -213,19 +213,6 @@ html {
   border-width: 0.5px;
 }
 
-.introduction a {
-  display: inline-block;
-  font-size: 1.2rem;
-  border-radius: 20px;
-  box-shadow: 0 2px 3px;
-  padding: 10px 15px;
-  margin-top: 3%;
-}
-
-.introduction a:hover {
-  color: #FFFFFF;
-}
-
 .introduction .paragraph {
   margin: 24px 0;
 }
@@ -246,11 +233,18 @@ html {
 }
 
 .islands .left a {
+  display: inline-block;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px;
+  padding: 10px 15px;
+  margin-top: 3%;
   color: #86CB32;
   border: 2px solid #86CB32;
 }
 
 .islands .left a:hover {
+  color: #FFFFFF;
   background-color: #86CB32;
 }
 
@@ -275,11 +269,18 @@ html {
 }
 
 .activities .right a {
+  display: inline-block;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px;
+  padding: 10px 15px;
+  margin-top: 3%;
   color: #8F6FFA;
   border: 2px solid #8F6FFA;
 }
 
 .activities .right a:hover {
+  color: #FFFFFF;
   background-color: #8F6FFA;
 }
 
@@ -303,11 +304,18 @@ html {
 }
 
 .food .left a {
+  display: inline-block;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  box-shadow: 0 2px 3px;
+  padding: 10px 15px;
+  margin-top: 3%;
   color: #F27E42;
   border: 2px solid #F27E42;
 }
 
 .food .left a:hover {
+  color: #FFFFFF;
   background-color: #F27E42;
 }
 

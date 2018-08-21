@@ -1,22 +1,15 @@
-///
-// Mixin font size
-//
-// Generating font setting mixin
-//
-// ```
-// @include font-size(16px, 1.5);
-//
-// // output
-// line-height: 1.5;
-// font-size: 16px;
-// font-size: 1rem;
-// ```
+@mixin button($mixin-theme-color) {
+	display: inline-block;
+	font-size: $font-size-p;
+	border-radius: 20px;
+	box-shadow: 0 2px 3px;
+	padding: 10px 15px;
+	margin-top: 3%;
+	color: $mixin-theme-color;
+	border: 2px solid $mixin-theme-color;
+}
 
-
-@mixin font-size($font-size, $line-height: inherit//defualt数字でも良い//) 
-//引数はどちらでもよい
-//プロパティ
-{
-  line-height: $line-height;
-  font-size: $font-size;
+@mixin buttton-hover($mixin-theme-color) {
+	color: $font-color-white;
+	background-color: $mixin-theme-color;
 }

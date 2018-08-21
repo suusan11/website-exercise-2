@@ -10,11 +10,10 @@
 		}
 
 		a {
-			color: $theme-color-islands;
-			border: 2px solid $theme-color-islands;
+			@include button($theme-color-islands);
 
 			&:hover {
-				background-color: $theme-color-islands;
+				@include buttton-hover($theme-color-islands);
 			}
 		}	
 	}

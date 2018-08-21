@@ -12,19 +12,6 @@
 		border-width: $border-width-introduction-hr;
 	}
 
-	a {
-		display: inline-block;
-		font-size: $font-size-p;
-		border-radius: 20px;
-		box-shadow: 0 2px 3px;
-		padding: 10px 15px;
-		margin-top: 3%;
-
-		&:hover {
-			color: $font-color-white;
-		}
-	}
-
 	.paragraph {
 	margin: $section-margin-top-bottom-paragraph;
 

@@ -10,11 +10,10 @@
 		}
 
 		a {
-			color: $theme-color-food;
-			border: 2px solid $theme-color-food;
-			
+			@include button($theme-color-food);
+	
 			&:hover {
-				background-color: $theme-color-food;
+				@include buttton-hover($theme-color-food);
 			}
 		}		
 	}
